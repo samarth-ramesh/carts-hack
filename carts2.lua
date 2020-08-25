@@ -8,9 +8,9 @@ local cart_entity2 = {
 		physical = false, -- otherwise going uphill breaks
 		collisionbox = {-0.5, -0.5, -0.5, 0.5, 0.5, 0.5},
 		visual = "mesh",
-		mesh = "carts_cart.b3d",
+		mesh = "cart.obj",
 		visual_size = {x=1, y=1},
-		textures = {"carts_cart.png"},
+		textures = {"cart_scifi.png"},
 	},
 
 	driver = nil,
